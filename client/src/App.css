@@ -1,0 +1,7 @@
+body {
+	background: url('/assets/img/main3.png') no-repeat fixed center;
+	/* -webkit-background: cover;
+	-moz-background: cover;
+	-o-background: cover; */
+	background-size: cover;
+}
