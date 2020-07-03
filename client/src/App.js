@@ -8,7 +8,7 @@ import HomeLogIn from './components/LogIn';
 import HomeSignUp from './components/SignUp';
 import axios from 'axios';
 import './App.css';
-import Footer from "./components/Footer"
+
 
 class App extends React.Component {
 
@@ -49,9 +49,6 @@ class App extends React.Component {
 							</Grid>
 						</BrowserRouter>
 					</header>
-					<div style={{position: "fixed", height: "45%", bottom: "-1"}}>
-						<Footer />
-					</div>
 				</div>
 			);
 

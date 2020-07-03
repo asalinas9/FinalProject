@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
-// import { response } from "express";
+import Footer from "./Footer"
 
 class Login extends React.Component {
     constructor(props) {
@@ -96,6 +96,7 @@ class Login extends React.Component {
         };
 
         return(
+            <div>
             <div style={loginStyle}>
                 <div style={centeringAuth}>
                     <h2>Log In</h2>
@@ -137,6 +138,10 @@ class Login extends React.Component {
                         </button>
                     </form>
                 </div>
+            </div>
+            <div style={{position: "fixed", height: "40%", bottom: "-1"}}>
+			    <Footer />
+		    </div>
             </div>
         );
     };
