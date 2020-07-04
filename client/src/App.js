@@ -10,7 +10,7 @@ import axios from 'axios';
 import './App.css';
 import Footer from './components/Footer';
 
-import MapContainer from './components/MapContainer';
+// import MapContainer from './components/MapContainer';
 
 class App extends React.Component {
 	componentDidMount() {
@@ -37,7 +37,7 @@ class App extends React.Component {
 							<Route exact path="/login" component={HomeLogIn} />
 							<Route exact path="/signup" component={HomeSignUp} />
 							<Route exact path="/content" component={Content} />
-							<Route exact path="/mapcontainer" component={MapContainer} />
+							{/* <Route exact path="/mapcontainer" component={MapContainer} /> */}
 						</Switch>
 						<CssBaseline />
 						<Grid container direction="column">

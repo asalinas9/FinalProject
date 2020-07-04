@@ -27,11 +27,12 @@ const useStyles = makeStyles((theme) => ({
 	icon: {
 		color: theme.palette.text.secondary,
 		marginRight: theme.spacing(2),
-		box: {
-			color: 'white',
-			fontWeight: '500',
-			fontStyle: 'oblique',
-		},
+	},
+	searchBox: {
+		fontWeight: '500',
+		fontStyle: 'oblique',
+		margin: '0 auto',
+		color: 'white',
 	},
 }));
 
@@ -115,7 +116,7 @@ export default function MapsSearch() {
 			onInputChange={(event, newInputValue) => {
 				setInputValue(newInputValue);
 			}}
-			renderInput={(params) => <TextField {...params} className={classes.box} label="Add a location" variant="filled" fullWidth />}
+			renderInput={(params) => <TextField {...params} className={classes.searchBox} label="Add a location" style={{backgroundColor: 'white', opacity: '0.7'}} variant="filled" fullWidth />}
 			renderOption={(option) => {
 				const matches = option.structured_formatting.main_text_matched_substrings;
 				const parts = parse(

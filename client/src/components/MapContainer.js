@@ -15,9 +15,10 @@ class LocationSearchModal extends React.Component {
 		city: '',
 		area: '',
 		state: '',
-		zoom: 14,
-		height: 500,
-		marginTop: 80,
+		zoom: 12,
+		height: 400,
+		marginTop: 70,
+		marginBottom: 70,
 		mapPosition: {
 			lat: 0,
 			lng: 0,
@@ -201,6 +202,7 @@ class LocationSearchModal extends React.Component {
 							border: `1px solid transparent`,
 							boxSizing: `border-box`,
 							outline: `none`,
+							opacity: '0.9',
 						}}
 						onPlaceSelected={this.onPlaceSelected}
 						types={['(regions)']}
@@ -209,7 +211,7 @@ class LocationSearchModal extends React.Component {
 			))
 		);
 
-		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `100%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `100%`}} />} />;
+		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `50%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `50%`}} />} />;
 	}
 }
 

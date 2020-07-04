@@ -121,12 +121,12 @@ const LandSCard = (props) => {
 									<Typed strings={['Focus:']} typeSpeed={40} backSpeed={60} />
 								</Box>
 							</Typography>
-							<Typography className={classes.paragraph} variant="button" paragraph>
+							{/* <Typography className={classes.paragraph} variant="button" paragraph>
 								<Box fontFamily="Monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</Box>
-							</Typography>
-							<Typography className={classes.paragraph} variant="button" paragraph>
+							</Typography> */}
+							{/* <Typography className={classes.paragraph} variant="button" paragraph>
 								<Box fontFamily="Monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</Box>
-							</Typography>
+							</Typography> */}
 							{/* <Typography className={classes.paragraph} variant="button" paragraph>
 								<Box fontFamily="Monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</Box>
 							</Typography>
