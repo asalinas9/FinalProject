@@ -28,6 +28,7 @@
         "connect-mongo": "^3.2.0",
         "cookie-parser": "^1.4.5",
         "cookie-session": "^1.4.0",
+        "env-cmd": "^10.1.0",
         "express": "^4.16.3",
         "express-session": "^1.17.1",
         "if-env": "^1.0.4",
@@ -35,6 +36,9 @@
         "passport": "^0.4.1",
         "passport-auth-token": "^1.0.1",
         "passport-google-plus": "^0.5.1",
-        "passport-local": "^1.0.0"
+        "passport-local": "^1.0.0",
+        "react-geocode": "^0.2.1",
+        "react-google-autocomplete": "^1.2.6",
+        "react-google-maps": "^9.4.5"
     }
 }
