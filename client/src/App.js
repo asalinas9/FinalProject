@@ -8,55 +8,53 @@ import HomeLogIn from './components/LogIn';
 import HomeSignUp from './components/SignUp';
 import axios from 'axios';
 import './App.css';
-import Footer from "./components/Footer"
+import Footer from './components/Footer';
+
+// import MapContainer from './components/MapContainer';
 
 class App extends React.Component {
-
 	componentDidMount() {
-		axios.get("/authentication")
-			.then(res => {
-				console.log(res)
-			})
+		axios.get('/authentication').then((res) => {
+			console.log(res);
+		});
 	}
 
 	constructor(props) {
-		super(props)
+		super(props);
 
 		this.state = {
-			loggedIn: false
-		}
+			loggedIn: false,
+		};
 	}
 
 	render() {
-
-			return (
-				<div className="App">
-					<header>
-						<BrowserRouter>
-							<Switch>
-								<Route exact path="/" component={Home} />
-								<Route exact path="/login" component={HomeLogIn} />
-								<Route exact path="/signup" component={HomeSignUp} />
-								<Route exact path="/content" component={Content} />
-							</Switch>
-							<CssBaseline />
-							<Grid container direction="column">
-								<Grid item container>
-									<Grid items xs={false} sm={2} />
-									<Grid item xs={12} sm={8} />
-								</Grid>
-								<Grid item xs={false} sm={2} />
+		return (
+			<div className="App">
+				<header>
+					<BrowserRouter>
+						<Switch>
+							<Route exact path="/" component={Home} />
+							<Route exact path="/login" component={HomeLogIn} />
+							<Route exact path="/signup" component={HomeSignUp} />
+							<Route exact path="/content" component={Content} />
+							{/* <Route exact path="/mapcontainer" component={MapContainer} /> */}
+						</Switch>
+						<CssBaseline />
+						<Grid container direction="column">
+							<Grid item container>
+								<Grid items xs={false} sm={2} />
+								<Grid item xs={12} sm={8} />
 							</Grid>
-						</BrowserRouter>
-					</header>
-					<div style={{position: "fixed", height: "45%", bottom: "-1"}}>
-						<Footer />
-					</div>
+							<Grid item xs={false} sm={2} />
+						</Grid>
+					</BrowserRouter>
+				</header>
+				<div style={{position: 'fixed', height: '45%', bottom: '-1'}}>
+					<Footer />
 				</div>
-			);
-
+			</div>
+		);
 	}
-
 }
 
 export default App;
