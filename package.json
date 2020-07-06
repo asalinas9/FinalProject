@@ -25,6 +25,7 @@
         "axios": "^0.19.2",
         "bcrypt": "^5.0.0",
         "body-parser": "^1.19.0",
+        "bootstrap": "^4.5.0",
         "connect-mongo": "^3.2.0",
         "cookie-parser": "^1.4.5",
         "cookie-session": "^1.4.0",
@@ -35,6 +36,7 @@
         "passport": "^0.4.1",
         "passport-auth-token": "^1.0.1",
         "passport-google-plus": "^0.5.1",
-        "passport-local": "^1.0.0"
+        "passport-local": "^1.0.0",
+        "react-bootstrap": "^1.0.1"
     }
 }

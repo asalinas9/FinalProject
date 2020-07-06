@@ -3,7 +3,8 @@ import {Grid} from '@material-ui/core';
 import landSCList from './Cards.json';
 import LandSCard from './LandSCard';
 import NavBarLogOut from "./NavBarLogout";
-import MapsSearch from "./Locations"
+import MapsSearch from "./Locations";
+import Footer from "./Footer"
 
 const Content = () => {
 	const landSCCard = (lansCardObj) => {
@@ -25,6 +26,9 @@ const Content = () => {
 				<p>Don't see what you're looking for? Try searching around your area!</p>
 				<MapsSearch />
 			</div>
+		</div>
+		<div style={{position: "fixed", height: "40%", bottom: "-1"}}>
+			<Footer />
 		</div>
 		</div>
 	);
