@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 
-app.use("/", indexRoute);
+// app.use("/", indexRoute);
 app.use("/authentication", userAuthRoutes);
 
 
