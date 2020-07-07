@@ -10,17 +10,25 @@ const Footer = () => {
                 </div>
                 <div className="firstcontent">
                     <h1> Need Help ?</h1>
-                    <p>Terms &amp; Conditions</p>
-                    <p>Privacy Policy</p>
-                    <p>Legal</p>
-                    <p>Advertising</p>
+                    <div style={{display: 'inline-block', marginRight: '7px'}}>
+                        <p>Terms &amp; Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div style={{display: 'inline-block', marginRight: '7px'}}>
+                        <p>Legal</p>
+                        <p>Advertising</p>
+                    </div>
                 </div>
-                <div className="firstcontent">
+                <div className="firstcontent" style={{float: 'right'}}>
                     <h1>About Us</h1>
-                    <p>Team</p>
-                    <p>Contact</p>
-                    <p>Location</p>
-                    <p>Our Beliefs</p>
+                    <div style={{display: 'inline-block', marginRight: '7px'}}>
+                        <p>Team</p>
+                        <p>Contact</p>
+                    </div>
+                    <div style={{display: 'inline-block', marginRight: '7px'}}>
+                        <p>Location</p>
+                        <p>Our Beliefs</p>
+                    </div>
                 </div>
             </div>
         </div>

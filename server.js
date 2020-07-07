@@ -37,19 +37,13 @@ app.use(passport.session());
 
 
 // Serve up static assets (usually on heroku)
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static("client/build"));
-// }
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 
-// app.use("/", indexRoute);
+app.use("/", indexRoute);
 app.use("/authentication", userAuthRoutes);
-
-
-
-
-
-// Connect to the Mongo DB
 
 
 // Start the API server

@@ -6,7 +6,7 @@ import NavBarLogOut from './NavBarLogout';
 import MapsSearch from './Locations';
 import {makeStyles} from '@material-ui/core/styles';
 import {Typography, Box} from '@material-ui/core';
-
+import Footer from "./Footer"
 import MapContainer from './MapContainer';
 
 const useStyles = makeStyles({
