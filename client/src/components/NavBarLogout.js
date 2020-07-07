@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import CssBaseline from '@material-ui/core/Drawer';
 import './navBarStyle.css';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Button } from '@material-ui/core';
+import {
+    Typography, Button
+} from '@material-ui/core';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
-// import SideBar from './SideBar';
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
@@ -52,12 +56,19 @@ class ButtonAppBar extends Component {
         const { classes } = this.props;
         return (
             <Router>
-                <div className={classes.root} style={{backgroundColor: '#00a82d', height: '36px'}}>
-                    {/* <SideBar /> */}
-                    <div style={{float: 'right', backgroundColor: '#00a82d', color: 'white'}}>
-                    <Button color="inherit" href="/">Home</Button>
-                    <Button color="inherit" onClick={this.handleLogOut}>Log Out</Button>
-                    </div>
+                <div className={classes.root}>
+                    <CssBaseline />
+                    <AppBar>
+                        <Toolbar>
+                            <Typography variant="h6" className={classes.title} nowrap>
+                                Lime Tree
+                            </Typography>
+                            <div style={{float: 'right'}}>
+                                <Button color="inherit" href="/">Home</Button>
+                                <Button color="inherit" onClick={this.handleLogOut}>Log Out</Button>
+                            </div>
+                        </Toolbar>
+                    </AppBar>
                 </div>
             </Router>
         );
