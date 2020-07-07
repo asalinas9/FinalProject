@@ -42,14 +42,8 @@ if (process.env.NODE_ENV === "production") {
 }
 
 
-// app.use("/", indexRoute);
+app.use("/", indexRoute);
 app.use("/authentication", userAuthRoutes);
-
-
-
-
-
-// Connect to the Mongo DB
 
 
 // Start the API server
