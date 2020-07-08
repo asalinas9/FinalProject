@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ButtonAppBar() {
-
 	const classes = useStyles();
 
 	return (
@@ -38,9 +37,16 @@ export default function ButtonAppBar() {
 					<Typography variant="h6" className={classes.title}>
 						Lime Tree
 					</Typography>
-					<Button color="inherit" href="/">Home</Button>
-					<Button color="inherit" href="/login">Log In</Button>
-					<Button color="inherit" href="/signup">Sign Up</Button>
+
+					<Button color="inherit" href="/">
+						Home
+					</Button>
+					<Button color="inherit" href="/login">
+						Log In
+					</Button>
+					<Button color="inherit" href="/signup">
+						Sign Up
+					</Button>
 				</Toolbar>
 			</AppBar>
 		</div>

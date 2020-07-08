@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"title": "No Weed Landscaping",
 		"price": "$35/Biweekly",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
@@ -8,6 +9,7 @@
 		"imgsrc": "assets/img/land1.jpeg"
 	},
 	{
+		"id": 2,
 		"title": "WeCut Landscaping",
 		"price": "$30/Biweekly",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
@@ -16,6 +18,7 @@
 		"imgsrc": "assets/img/land2.jpeg"
 	},
 	{
+		"id": 3,
 		"title": "Cut-Cut Landscaping",
 		"price": "$40/Biweekly",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
@@ -24,11 +27,156 @@
 		"imgsrc": "assets/img/land3.jpeg"
 	},
 	{
+		"id": 4,
 		"title": "Trim-Trim Lanscaping",
 		"price": "$35/Biweekly",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
 		"avatarSrc": "TTL",
 		"avatarP": "TTL",
 		"imgsrc": "assets/img/land4.jpeg"
+	},
+	{
+		"id": 5,
+		"title": "Clean Cut Lanscaping",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land5.jpeg",
+		"avatarP": "CCL",
+		"imgsrc": "assets/img/land5.jpeg"
+	},
+	{
+		"id": 6,
+		"title": "GreenLand Lanscaping",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "GLL",
+		"imgsrc": "assets/img/land6.jpeg"
+	},
+	{
+		"id": 7,
+		"title": "Tree Landscaping",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "TL",
+		"imgsrc": "assets/img/land7.jpeg"
+	},
+	{
+		"id": 8,
+		"title": "Ramos Lanscaping",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "RL",
+		"imgsrc": "assets/img/land8.jpeg"
+	},
+	{
+		"id": 9,
+		"title": "Lawn-Z Lanscaping",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "LZ",
+		"imgsrc": "assets/img/land9.jpeg"
+	},
+	{
+		"id": 10,
+		"title": "Grass King",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "GK",
+		"imgsrc": "assets/img/land10.jpeg"
+	},
+	{
+		"id": 11,
+		"title": "Lawn Doctor",
+		"price": "$45/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "LD",
+		"imgsrc": "assets/img/land11.jpeg"
+	},
+	{
+		"id": 12,
+		"title": "Lawnstarter Lanscaping",
+		"price": "$40/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "LL",
+		"imgsrc": "assets/img/land12.jpeg"
+	},
+	{
+		"id": 13,
+		"title": "Kingdom Lawn Care",
+		"price": "$55/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "KL",
+		"imgsrc": "assets/img/land13.jpeg"
+	},
+	{
+		"id": 14,
+		"title": "The Lawn Rangers",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "TLR",
+		"imgsrc": "assets/img/land14.jpeg"
+	},
+	{
+		"id": 15,
+		"title": "Go Green Gardeners",
+		"price": "$40/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "GGG",
+		"imgsrc": "assets/img/land15.jpeg"
+	},
+	{
+		"id": 16,
+		"title": "2 Crazy Gardeners",
+		"price": "$35/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "2CG",
+		"imgsrc": "assets/img/land16.jpeg"
+	},
+	{
+		"id": 17,
+		"title": "Sharp Lawn Inc.",
+		"price": "$45/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "SL",
+		"imgsrc": "assets/img/land17.jpeg"
+	},
+	{
+		"id": 18,
+		"title": "Champion Lawn Care",
+		"price": "$55/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "CL",
+		"imgsrc": "assets/img/land18.jpeg"
+	},
+	{
+		"id": 19,
+		"title": "Ace Lawn Care",
+		"price": "$45/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "AL",
+		"imgsrc": "assets/img/land19.jpeg"
+	},
+	{
+		"id": 20,
+		"title": "Low Cut Lawn Care",
+		"price": "$40/Biweekly",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque magnam impedit eum repellat doloribus.",
+		"avatarSrc": "assets/img/land6.jpeg",
+		"avatarP": "LC",
+		"imgsrc": "assets/img/land20.jpeg"
 	}
 ]

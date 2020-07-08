@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
 		color: '#8bc34a',
 		opacity: '0.8',
 	},
+
 	paragraph: {
 		color: 'black',
 	},
@@ -51,10 +52,13 @@ const useStyles = makeStyles((theme) => ({
 		backgroundColor: red[500],
 		borderWidth: '20',
 	},
+	price: {
+		color: 'red',
+	},
 }));
 
 const LandSCard = (props) => {
-	const {avatarP, avatarSrc, title, subtitle, description, imgsrc} = props;
+	const {avatarP, price, title, subtitle, description, imgsrc} = props;
 	const classes = useStyles();
 	const [expanded, setExpanded] = React.useState(false);
 
@@ -84,6 +88,7 @@ const LandSCard = (props) => {
 				className={classes.title}
 				title={title}
 				subheader={subtitle}
+				price={price}
 			/>
 			<CardMedia style={{height: '160px'}} image={imgsrc} />
 
@@ -91,6 +96,9 @@ const LandSCard = (props) => {
 				<Typography className={classes.description} variant="body2" color="textSecondary" component="p">
 					<Box fontWeight="fontWeightBold" fontStyle="oblique">
 						{description}
+					</Box>
+					<Box className={classes.price} style={{color: 'red', fontWeight: '700'}}>
+						{price}
 					</Box>
 				</Typography>
 			</CardContent>
