@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import {Redirect} from 'react-router-dom';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 class SignUp extends React.Component {
 	constructor(props) {
@@ -142,7 +142,9 @@ class SignUp extends React.Component {
 						</form>
 					</div>
 				</div>
-				<div style={{position: 'fixed', height: '40%', bottom: '-1'}}>{/* <Footer /> */}</div>
+				<div style={{position: 'fixed', height: '40%', bottom: '-1'}}>
+					<Footer />
+				</div>
 			</div>
 		);
 	}
