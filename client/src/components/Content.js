@@ -24,6 +24,7 @@ const useStyles = makeStyles({
 	},
 });
 
+
 const Content = () => {
 	const classes = useStyles();
 	const landSCCard = (lansCardObj) => {
@@ -53,7 +54,6 @@ const Content = () => {
 			{/* <MapsSearch className={classes.mapSearches} /> */}
 		</div>
 		// </div>
-
 		// </div>
 	);
 };

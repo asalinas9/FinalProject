@@ -6,16 +6,18 @@
 }
 
 .main-footer {
-	width: 100vw;
-	display: block;
-	overflow: hidden;
-	padding: 25px 0;
-	box-shadow: border-box;
-	background-color: #00a82d;
-	position: sticky;
-	bottom: 0px;
-	left: 0px;
-	padding-top: 20px;
+
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 25px 0;
+    box-shadow: border-box;
+    background-color: #00a82d;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    margin-top: 524px;
 }
 
 .innerfooter {

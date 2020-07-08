@@ -8,7 +8,7 @@ import HomeLogIn from './components/LogIn';
 import HomeSignUp from './components/SignUp';
 import axios from 'axios';
 import './App.css';
-import Footer from './components/Footer';
+import Footer from '../src/components/Footer';
 
 // import MapContainer from './components/MapContainer';
 
