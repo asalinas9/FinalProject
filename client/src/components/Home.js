@@ -2,10 +2,10 @@ import React from 'react';
 import {Typography, Box} from '@material-ui/core';
 import Typed from 'react-typed';
 import {makeStyles} from '@material-ui/core/styles';
-// import CheckBoxes from './CheckBoxes';
-// import Grid from '@material-ui/core/Grid';
-import NavBarLogIn from "./NavBarLogin";
-import Footer from "./Footer"
+import CheckBoxes from './CheckBoxes';
+import Grid from '@material-ui/core/Grid';
+import NavBarLogIn from './NavBarLogin';
+import Footer from './Footer';
 
 const useStyles = makeStyles({
 	title: {
@@ -37,9 +37,11 @@ const Home = () => {
 				<Typography className={classes.subtitle} variant="h4" align="center" color="secondary">
 					<Typed strings={['Find The Best Landscaping Service...']} typeSpeed={40} backSpeed={60} />
 				</Typography>
+				<Grid container justify="center">
+					<CheckBoxes />
+				</Grid>
 			</Box>
-			<div>
-		</div>
+			<div></div>
 		</div>
 	);
 };
