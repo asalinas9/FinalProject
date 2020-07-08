@@ -50,9 +50,8 @@ class App extends React.Component {
 						</Grid>
 					</BrowserRouter>
 				</header>
-				<div style={{position: 'fixed', height: '45%', bottom: '-1'}}>
-					<Footer />
-				</div>
+				<Footer />
+
 			</div>
 		);
 	}

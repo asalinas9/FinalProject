@@ -7,14 +7,15 @@
 
 .main-footer {
     width: 100vw;
-    height: 150px;
     display: block;
     overflow: hidden;
-    padding: 35px 0;
+    padding: 25px 0;
     box-shadow: border-box;
     background-color: #00a82d;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
 }
 
 .innerfooter {
@@ -29,6 +30,7 @@
     float: left;
     height: 100%;
     display: block;
+    font-size: 20px;
 }
 
 .innerfooter .logo h1 {
@@ -77,6 +79,11 @@
     display: block;
     width: 100%;
     padding-top: 20px;
+}
+
+.firstcontent p:hover,
+.firstcontent i:hover {
+    color: #bbb;
 }
 
 @media(max-width: 600px) {
