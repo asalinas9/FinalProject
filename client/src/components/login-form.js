@@ -1,3 +1,4 @@
+
 import React from "react";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
@@ -138,12 +139,10 @@ class Login extends React.Component {
                     </form>
                 </div>
             </div>
-            <div style={{position: "fixed", height: "40%", bottom: "-1"}}>
-
-		    </div>
             </div>
         );
     };
 };
 
 export default Login
+
