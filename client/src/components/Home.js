@@ -39,8 +39,7 @@ const Home = () => {
 				</Typography>
 			</Box>
 			<div>
-				<Footer />
-			</div>
+		</div>
 		</div>
 	);
 };
