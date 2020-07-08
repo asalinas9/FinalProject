@@ -211,7 +211,7 @@ class LocationSearchModal extends React.Component {
 			))
 		);
 
-		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `50%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `50%`}} />} />;
+		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `85%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `85%`}} />} />;
 	}
 }
 

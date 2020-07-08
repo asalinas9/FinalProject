@@ -1,7 +1,7 @@
+
 import React from "react";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
-import Footer from "./Footer"
 
 class Login extends React.Component {
     constructor(props) {
@@ -139,12 +139,10 @@ class Login extends React.Component {
                     </form>
                 </div>
             </div>
-            <div style={{position: "fixed", height: "40%", bottom: "-1"}}>
-			    <Footer />
-		    </div>
             </div>
         );
     };
 };
 
 export default Login
+
