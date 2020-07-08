@@ -5,7 +5,6 @@ import {makeStyles} from '@material-ui/core/styles';
 // import CheckBoxes from './CheckBoxes';
 // import Grid from '@material-ui/core/Grid';
 import NavBarLogIn from "./NavBarLogin";
-import Footer from "./Footer"
 
 const useStyles = makeStyles({
 	title: {
