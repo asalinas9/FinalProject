@@ -194,7 +194,7 @@ class LocationSearchModal extends React.Component {
 					<Autocomplete
 						style={{
 							width: '100%',
-							height: '40px',
+							height: '60px',
 							paddingLeft: '16px',
 							marginTop: '10px',
 							marginBottom: '2rem',
@@ -211,7 +211,7 @@ class LocationSearchModal extends React.Component {
 			))
 		);
 
-		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `85%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `85%`}} />} />;
+		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `200%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `200%`}} />} />;
 	}
 }
 
