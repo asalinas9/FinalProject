@@ -8,5 +8,5 @@ _Landscape For All_ is an app where a user has to log in or sign up. After login
 4. [Tanner Millican](https://github.com/TannerMillican)
 
 ## Tech Used
-_React_
+_React_,
 _Node_
