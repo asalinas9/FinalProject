@@ -6,3 +6,7 @@ _Landscape For All_ is an app where a user has to log in or sign up. After login
 2. [Brandon Taylor](https://github.com/Brandon20202)
 3. [Felipe Cantu](https://github.com/ABACABB00)
 4. [Tanner Millican](https://github.com/TannerMillican)
+
+## Tech Used
+_React_.
+_Node_.
