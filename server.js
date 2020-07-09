@@ -41,9 +41,9 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-
-// app.use("/", indexRoute);
 app.use("/authentication", userAuthRoutes);
+app.use("*", indexRoute);
+
 
 
 // Start the API server
