@@ -16,7 +16,7 @@ _Landscape For All_ is an app where a user has to log in or sign up. After login
 2. _Node_
 3. _MongoDB_
 4. _Passport_
-5. _HTML/CSS/Javascript
+5. _HTML/CSS/Javascript_
 6. _Material UI_
 7. _Geolocation API_ 
 
